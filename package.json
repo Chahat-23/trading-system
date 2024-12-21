@@ -1,0 +1,13 @@
+{
+  "name": "trading-system",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace=frontend",
+    "dev": "npm run dev --workspace=frontend",
+    "start": "npm run start --workspace=frontend"
+  }
+}
